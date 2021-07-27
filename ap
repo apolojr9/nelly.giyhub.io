@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>
+            MT DANIELI
+        </title>
+        <link rel="stylesheet" href="banner">
+    </head>
+        </header>
+    <body>
+        <section id="banner">
+            <header>
+            <div class="main">
+                <ul>
+                    <li class="apolo"><a href="#">home</a></li>
+                    <li><a href="#">news</a></li>
+                    <li><a href="#">service</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">about</a></li>
+                </ul>
+            </div>
+        </header>
+            
+            <div class="banner-text">
+                <h1>MT DANIEL</h1>
+               <marquee><P><i>We are so excited for GOD plans</i></P></marquee> 
+                <div class="banner-btn">
+                    <a href="#"><span></span>read more</a>
+                    <a href="#"><span></span> out</a>
+            </div>
+            <script>
+                var menubtn = docu
+            </script>
+
+        </section>
+        *{
+    margin: 0;
+    padding: 0;
+}
+#banner{ 
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0, 0.5)), url("photo-1555696958-c5049b866f6f.jpg"); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+} 
+.logo{
+    width: 200px;
+    top: 4%;
+    left: 8%;
+    position: absolute;
+}  
+.banner-text{
+    text-align:center;
+    color:khaki;
+    padding-top: 190px 
+}
+.banner-text h1{
+    font-size: 100px;
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: inherit;
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #fff;
+    border: .5px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s ease;
+}.banner-btn a:hover{
+    background-color: rgb(223, 83, 83);
+    colour: #000;
+}
+ul{
+    float: right;
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    width: 90px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 2px 10px;
+    color: #fff;
+    border: none;
+    position: relative;;
+    transition: 0.5s ease;
+}
+ul li a:hover{
+    background-color: rgb(211, 196, 64);
+    colour: #000;
+}
+ul li.apolo a{
+    background-color: rgb(211, 196, 64);
+    colour: #000;
+    </body>
+</html>
